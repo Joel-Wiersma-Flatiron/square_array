@@ -1,3 +1,8 @@
 def square_array(array)
-  # your code here
+  numbers = []
+  array.each do |hippo|
+    temp = hippo * hippo
+    numbers.push(temp)
+  end
+  return numbers
 end
